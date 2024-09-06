@@ -46,7 +46,7 @@ var uploader = new ss.SimpleUpload({
       button: 'uploadButton', // file upload button
       url: '/api/file/upload', // server side handler
       name: 'uploadfile', // upload parameter name        
-      progressUrl: 'uploadProgress.php', // enables cross-browser progress support (more info below)
+      progressUrl: 'api/file/progress', // enables cross-browser progress support (more info below)
       responseType: 'json',
       allowedExtensions: ['jpg', 'jpeg', 'png', 'gif'],
       maxSize: 1024, // kilobytes
