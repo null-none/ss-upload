@@ -1,0 +1,12 @@
+{
+  "name": "ss-uploader",
+  "description": "A Javascript plugin for cross-browser Ajax file uploading. Supports drag and drop, CORS, and multiple file uploading with progress bars. Works in IE7-9, mobile, and all modern browsers.",
+  "version": "1.0.0",
+  "main": "ss-uploader.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/null-none/ss-upload.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/null-none/ss-upload"
+}
